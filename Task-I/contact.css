@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: url("contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    color: wheat;
+    text-align: left;
+    padding: 20px;
+    font-size: 0.9cm;
+  }
+  h3
+  {
+    color: rgb(201, 221, 159);
+    font-family:cursive ;
+    text-align: center;
+    line-height: 2em;
+    font-size: medium;
+  }
+  h2{
+    color:rgb(255, 215, 140);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+  margin-left: auto;
+  margin-right: auto;
+}
+#container #left{
+  width: 300px;
+  float:left;
+}
+#container #right{
+  width:300px;
+  float: right;
+}
+ul.navbar li a {
+  color: rgb(180, 180, 185);
+  text-align: left;
+  padding: 14px;
+  text-decoration: none;
+  font-weight: 50;
+  font-size: 5mm;
+}
+
+ul.navbar li a:hover {
+  background-color: rgba(161, 216, 236, 0.162);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

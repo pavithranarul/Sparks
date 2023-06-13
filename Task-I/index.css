@@ -1,0 +1,80 @@
+ /* Add some basic CSS styles here */
+ body{
+    font-family: Arial, sans-serif;
+    background: url("index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  ul.navbar li {
+    float: left;
+    padding-left: 20px;
+  }
+
+  ul.navbar li a {
+    color: rgb(190, 175, 208);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 520;
+    font-size: 5mm;
+    border-radius: 5mm;
+  }
+  ul.link li{
+    float: right;
+    /* text-align: center; */
+  }
+  ul.link li a
+  {
+    color: rgb(190, 175, 208);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 520;
+    font-size: 5mm;
+    border-radius: 5px;
+  }
+
+  ul li a:hover
+   {
+    box-shadow: 2px 3px rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
+    
+  }
+ 
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 5px solid rgba(255, 255, 255);
+    padding: 8px;
+  }
+  h1{
+    color: wheat;
+    text-shadow: 1px 1px whitesmoke;
+    text-align: center;
+    font-size: 0.9cm;
+  }
+  p
+  {
+    color: white;
+    padding: 20px;
+    font-weight: 530;
+    max-width: 45%;
+    margin: 4em 5px;
+    font-size: 5mm;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+  span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  
+ 
