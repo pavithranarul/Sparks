@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('paypal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .donation-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .donation-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .donation-form input[type="number"],
+  .donation-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  .donation-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0000006e;
+    color: #fff;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0 0 0.5em;
+  }
+  .donation-form button:hover {
+    background-color: #ffffff6f;
+    color: black;
+  }
+  h1
+  {
+    text-align: center;
+    font-size: 1cm;
+    color: rgb(0, 0, 0);
+  }
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 6mm;
+    text-align: center;
+  }
+  input
+  {
+    background-color: rgba(0, 0, 0, 0.375);
+    color: rgb(176, 242, 233);
+    padding: 7px;
+    text-align: center;
+  }
+  ::placeholder
+  {
+    color: #cdd8ef;
+    text-align: center;
+  }
+  .overlay01 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  .message-box01 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: center;
+    color:rgb(28, 0, 128);
+    font-weight: 600;
+    font-size: 4mm;
+    animation: fadeIn 0.3s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+ 
+  
